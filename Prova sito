@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elettropompe In Linea</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #008080;
+            padding: 20px 0;
+            text-align: center;
+            width: 100%;
+        }
+
+        header h1 {
+            color: #fff;
+            margin: 0;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 20px 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #008080;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: left;
+        }
+
+        h2 {
+            color: #008080;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .technical-data, .construction-features {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #008080;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Elettropompe In Linea</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#technical-data">Dati Tecnici</a>
+        <a href="#construction-features">Caratteristiche Costruttive</a>
+    </nav>
+
+    <div class="container">
+        <div id="home">
+            <h2>Elettropompe In Linea</h2>
+            <p>Le elettropompe in linea sono delle Pompe di circolazione con bocche in linea, idonee in impianti di riscaldamento e condizionamento, refrigerazione e acqua calda ad uso sanitario.</p>
+        </div>
+
+        <div class="technical-data" id="technical-data">
+            <h2>Dati Tecnici</h2>
+            <p><strong>Campo di funzionamento:</strong> da 3,6 a 700m3/h con prevalenza fino a 60 mwc.</p>
+            <p><strong>Liquido pompato:</strong> pulito, libero da sostanze solide o abrasive, non viscoso, non aggressivo, non cristallizzato e chimicamente neutro prossimo alle caratteristiche dell’acqua - percentuale massima di glicole 30%.</p>
+            <!-- Altri dati tecnici... -->
+        </div>
+
+        <div class="construction-features" id="construction-features">
+            <h2>Caratteristiche Costruttive</h2>
+            <p><strong>Bocche di aspirazione e di mandata:</strong> flangiate PN10.</p>
+            <p><strong>Corpo pompa e supporto motore:</strong> in ghisa, girante in ghisa.</p>
+            <p><strong>Albero motore:</strong> in acciaio inox.</p>
+            <p><strong>Motore:</strong> Motore trifase, di tipo asincrono a ventilazione esterna, per
+                la sua protezione si raccomanda l’uso di un telesalvamotore
+                in accordo alle norme vigenti.</p>
+                <p><strong> Campo di temperatura del liquido:</strong>Da -10°C a + 180°C per DN 40</p>
+                <p><strong> Massima temperatura ambiente:</strong>+40°C</p>
+                <p><strong> Massima pressione di esercizio:</strong>10 BAR; PN10: per DN 40</p>
+                <p><strong> Flangiatura:</strong>PN 10</p>
+                <p><strong> Esecuzioni speciali a richiesta:</strong>Alte tensioni e/o frequenze</p>
+                <p><strong>Protezione:</strong>Ip 55</p>
+                <p><strong> Isolamento:</strong>Classe H</p>
+
+            <!-- Altre caratteristiche  -->
+        </div>
+    </div>
+    
+</body>
+</html>
